@@ -1,9 +1,21 @@
-<html>
+<!doctype html>
+<html lang="en">
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
     <title>ERP</title>
+    <style>
+      html,body{height:100%;margin:0}
+      .wrap{height:100vh}
+      iframe{border:0;width:100%;height:100%}
+    </style>
   </head>
   <body>
-    <iframe src="https://script.google.com/macros/s/AKfycbxON2iKG64eCLnUZ4nOjSqOmitiQdIHCzPHnxHIKf3PPHQkOvE2dHIK8fxUbFIgt6bcSg/exec" style="border: none;" width="100%" height="500px" scrolling="no"></iframe>
+    <div class="wrap">
+      <iframe
+        src="https://script.google.com/macros/s/AKfycbxON2iKG64eCLnUZ4nOjSqOmitiQdIHCzPHnxHIKf3PPHQkOvE2dHIK8fxUbFIgt6bcSg/exec"
+        scrolling="no">
+      </iframe>
+    </div>
   </body>
 </html>
